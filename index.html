@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Piano Kit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">C</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">D</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">E</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">F</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">G</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">A</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">B</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">C2</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="audio/C.mp3"></audio>
+    <audio data-key="83" src="audio/D.mp3"></audio>
+    <audio data-key="68" src="audio/E.mp3"></audio>
+    <audio data-key="70" src="audio/F.mp3"></audio>
+    <audio data-key="71" src="audio/G.mp3"></audio>
+    <audio data-key="72" src="audio/A.mp3"></audio>
+    <audio data-key="74" src="audio/B.mp3"></audio>
+    <audio data-key="75" src="audio/C2.mp3"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>

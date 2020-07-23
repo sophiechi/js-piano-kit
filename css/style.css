@@ -1,0 +1,50 @@
+html {
+  font-size: 10px;
+  background: url(/css/background.jpg) bottom center;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.5px solid;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.2s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(80, 80, 80, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #927b49;
+  box-shadow: 0 0 1rem #927b49;
+}
+
+kbd {
+  display: block;
+  font-size: 5rem;
+}
+
+.sound {
+  font-size: 1.5rem;
+  color: #ffc600;
+}
